@@ -25,7 +25,7 @@ public class HelloWorldController {
         String randomWords=(wisewords[randomNumber]);
 
         model.addAttribute("randomWords", randomWords);
-        model.addAttribute("message", "https://github.com/eric2022git/myrepo1/tree/main/workshop01/demo");
+        model.addAttribute("message", "https://github.com/eric2022git/myrepo1/");
         return "helloworld";
     }
 }
