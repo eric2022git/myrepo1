@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+<meta charset="ISO-8859-1">
+<title>Thymeleaf Helloo World App</title>
+</head>
+<body>
+    <img th:src="@{images/thymeleaf.jpg}" alt="thymeleaf logo">
+    <h1 th:text ="'Repository:'"></h1>
+    <a th:text="@{${message}}" th:href="@{${message}}"></a>
+</body>
+</html>
