@@ -8,8 +8,7 @@
     <img th:src="@{images/thymeleaf.jpg}" alt="thymeleaf logo">
     <h1 th:text="'Repository:'"></h1>
     <a th:text="@{${message}}" th:href="@{${message}}"></a>
-    <p th:text="${wisewords[${randomNumber}]}"></p>
-    <p>...<span th:text="${randomNumber}"></span>...</p>
+    <p th:text="${randomWords}"></p>
     </p>
 </body>
 </html>

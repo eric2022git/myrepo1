@@ -22,8 +22,9 @@ public class HelloWorldController {
         Random r=new Random();
         int randomNumber=r.nextInt(wisewords.length);
         
-        model.addAttribute("randomNumber", randomNumber);
-        model.addAttribute("wisewords", wisewords);
+        String randomWords=(wisewords[randomNumber]);
+
+        model.addAttribute("randomWords", randomWords);
         model.addAttribute("message", "https://github.com/eric2022git/myrepo1/tree/main/workshop01/demo");
         return "helloworld";
     }
